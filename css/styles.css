@@ -107,3 +107,24 @@ span {
   height: 100px;
   width: 100px;
 }
+
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+
+  }
+  #subscribe {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+  #subscribe {
+    text-align: right;
+  }
+}
