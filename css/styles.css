@@ -1,0 +1,12 @@
+.flashy {
+  color: red;
+  font-style: italic;
+}
+
+.best {
+  color: green;
+  font-style: normal;
+}
+ ul {
+   list-style-type: none;
+ }
