@@ -7,18 +7,25 @@
   color: green;
   font-style: normal;
 }
- ul {
+
+.column {
+   float: left;
+   width: 32%;
+   max-height: 160px;
+   min-height: 160px;
    list-style-type: none;
-   columns: 3;
    text-align: center;
    border: dotted;
    border-color: blue;
  }
 
+
 .header {
   text-align: center;
   width: auto;
 }
+
+
 
 span {
   font-style: italic;
