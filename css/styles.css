@@ -24,6 +24,7 @@ body {
  }
 
 
+
 .header {
   text-align: center;
   width: 100%;
@@ -42,27 +43,37 @@ div.sidebar {
   border: solid 2px blue;
   width: 100%;
   position: fixed;
-  background: blue;
+  background-image: url(http://mlb.mlb.com/documents/8/0/4/111192804/mlb_logo_prod3_1_fqk7toel.svg);
+  background-size: ;
   padding-right: 20px;
   padding-top: 0px;
-  color: white;
+  color: red;
+}
+
+a.sidebar {
+  color: black;
 }
 
 p.sidebar {
   padding-right: 20px;
 }
 
+.links {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
 
 ul.sidebar {
   columns: 3;
   list-style-type: none;
   text-align: center;
   padding-right: 20px;
+  padding-top: 30px;
+  margin-bottom: 0px;
 }
 
-a.sidebar {
-  color: white;
-}
+
 
 span {
   font-style: italic;
