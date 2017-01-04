@@ -9,4 +9,17 @@
 }
  ul {
    list-style-type: none;
+   columns: 3;
+   text-align: center;
+   border: dotted;
+   border-color: blue;
  }
+
+ #homepage {
+   height: 50px;
+ }
+
+img.homepage {
+  height: 50px;
+  width: 50px;
+}
