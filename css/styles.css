@@ -15,6 +15,15 @@
    border-color: blue;
  }
 
+.header {
+  text-align: center;
+  width: auto;
+}
+
+span {
+  font-style: italic;
+}
+
 #scary {
   height: 100px;
   width: 100px;
