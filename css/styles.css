@@ -112,8 +112,29 @@ span {
   width: 100px;
 }
 
+#mascotfight {
+  background-image: url("http://img.bleacherreport.net/img/article/media_slots/photos/002/102/251/hi-res-09cf5bcd880a4c44f9cf235563ad10cc_crop_exact.jpg?w=650&h=435&q=85");
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+}
 
+.mascots {
+  padding-top: 250px;
+  text-align: center;
+}
 
+.mascots img {
+  height: 150px;
+  width: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#mascots {
+  background: linear-gradient(teal,black);
+  color: white;
+}
 
 @media screen and (max-width: 700px) {
   body {
